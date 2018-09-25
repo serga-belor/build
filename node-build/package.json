@@ -1,0 +1,14 @@
+{
+  "name": "serga_belor-projects",
+  "version": "1.0.0",
+  "description": "Sergey Belorusets's node projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Belorusets",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
