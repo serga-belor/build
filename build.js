@@ -1,4 +1,4 @@
-/*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
+/* eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 
 const argv = process.argv;
 for(let i=2; i<argv.length; i++) {
