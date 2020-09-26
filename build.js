@@ -1,9 +1,12 @@
 /* eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 
+console.log("===");
+console.log("=== build");
 const argv = process.argv;
 for(let i=2; i<argv.length; i++) {
-	console.log(`${i-1}: ${argv[i]}`);
+	console.log(`===   ${i-1}: ${argv[i]}`);
 }
+console.log("===");
 
 const path = require("path");
 const fs = require("fs");
